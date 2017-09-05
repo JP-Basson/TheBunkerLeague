@@ -5,6 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>The Bunker League</title>
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
@@ -21,12 +22,13 @@
         <li><a class="teal-text" href="#results">Results</a></li>
       </ul>
 
-      <ul id="nav-mobile" class="side-nav grey lighten-2">
+      <!-- mobile nav - will put back in when testing complete
+         <ul id="nav-mobile" class="side-nav grey lighten-2">
         <li><a class="teal-text"href="https://drive.google.com/open?id=0BzC13p5BM-13NnlkdmstWF9hUms" target="_blank">League Info and Rules</a></li>
         <li><a class="teal-text" href="#bracket">Bracket</a></li>
         <li><a class="teal-text" href="#results">Results</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </ul> -->
+      <!-- <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a> -->
     </div>
   </nav>
 
@@ -108,8 +110,15 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4 class="teal-text">League Bracket</h4>
-          <iframe width="740" height="380" src="https://widget.toornament.com/tournaments/691638063152939008/matches/schedule/?_locale=en_US&theme=light"
-            frameborder="0" allowfullscreen="true"></iframe>
+          <!-- League Bracket Toornament Iframe -->
+          <div class="toornament-container">
+            <iframe width="740"
+                    height="380"
+                    src="https://widget.toornament.com/tournaments/691638063152939008/matches/schedule/?_locale=en_US&theme=light"
+                    frameborder="0"
+                    allowfullscreen="true">
+            </iframe>
+          </div>
         </div>
       </div>
 
@@ -135,8 +144,14 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4 class="teal-text">League Results</h4>
-          <iframe width="740" height="380" src="https://widget.toornament.com/tournaments/691638063152939008/stages/712431321237504000/?_locale=en_US&theme=light"
-            frameborder="0" allowfullscreen="true"></iframe>
+          <div class="toornament-container">
+            <iframe width="740"
+                    height="380"
+                    src="https://widget.toornament.com/tournaments/691638063152939008/stages/712431321237504000/?_locale=en_US&theme=light"
+                    frameborder="0"
+                    allowfullscreen="true">
+            </iframe>
+          </div>
         </div>
       </div>
     </div>
@@ -165,7 +180,7 @@
           </ul>
         </div>
         <!--
-            keeping this as exampleof another footer column to use
+            keeping this incase I need to use another footer column
             <div class="col l3 s12">
             <h5 class="brown-text">Connect</h5>
             <ul>
