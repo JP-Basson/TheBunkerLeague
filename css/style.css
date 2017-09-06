@@ -67,6 +67,7 @@ footer.page-footer {
     padding-top: 35px;
     height: 0;
     overflow: hidden;
+    min-height: 350px;
 }
 
 .toornament-container iframe {
@@ -75,4 +76,8 @@ footer.page-footer {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.gold-text {
+  color: #D4AF37;
 }
