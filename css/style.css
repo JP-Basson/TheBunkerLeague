@@ -82,3 +82,9 @@ footer.page-footer {
 .gold-text {
   color: #DAA520 !important;
 }
+
+.gold-hover:hover {
+  color: #DAA520 !important;
+          text-decoration: underline;
+
+}
