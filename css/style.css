@@ -85,6 +85,11 @@ footer.page-footer {
 
 .gold-hover:hover {
   color: #DAA520 !important;
-          text-decoration: underline;
+  text-decoration: underline;
+}
 
+/* aligning title a bit better on mobile, wip */
+.title-aligned {
+  padding-right: 49px;
+  position: relative;
 }
